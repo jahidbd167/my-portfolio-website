@@ -51,19 +51,31 @@ section{
 #full-width{
     text-align: center;
   }
-  .work-inqu{
+  .work-inqu-part{
     background-image: url("images/imagesufu.png");
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: 500px 150px;
-    background-position: center;
-    margin-top: 20%;
-    position: relative;
- 
+    height: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
   }
-  text{
-    position: absolute;
-      bottom: 45px;
-      left: 400px;
+  .inquary-part{
+      padding-top: 30px;
+      width: 40%;
+      float:left;
+      color: aliceblue;
+      font-size: 35px;
+  }
+  .btn-chat{
+      width: 20%;
+      float: right;
+      padding-top: 35px;
+  }
+  .btn-chat a{
+      text-transform: capitalize;
+      font-weight: 400;
+  }
+  
 footer p{
     text-align: center;
 }
