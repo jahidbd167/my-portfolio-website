@@ -45,12 +45,25 @@ section{
     padding-left: 2%;
 }
 .new-section img{
-    width: 150%;
+    width: 120%;
 }
-.full-width{
+
+#full-width{
     text-align: center;
   }
-  
+  .work-inqu{
+    background-image: url("images/imagesufu.png");
+    background-repeat: no-repeat;
+    background-size: 500px 150px;
+    background-position: center;
+    margin-top: 20%;
+    position: relative;
+ 
+  }
+  text{
+    position: absolute;
+      bottom: 45px;
+      left: 400px;
 footer p{
     text-align: center;
 }
